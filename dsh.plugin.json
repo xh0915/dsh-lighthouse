@@ -1,0 +1,8 @@
+{
+  "id": "dsh-lighthouse",
+  "version": "0.1.0",
+  "main": "lib/index.js",
+  "description": "灯塔 · Lighthouse — reads the current session and flags dangerous actions (broad deletes, force pushes, process kills by name, credential reads), explains the blast radius, and suggests a safer move. Read-only and local.",
+  "engines": { "dsh": ">=0.1.0-rc.6" },
+  "contributes": { "tools": [], "skills": [] }
+}

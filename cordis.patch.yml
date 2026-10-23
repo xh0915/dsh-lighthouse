@@ -1,0 +1,12 @@
+# dsh-lighthouse bundle: mount the host plugin under its package name.
+#
+# Optional Config overrides (see src/index.ts), e.g.
+#   - insert:
+#       - id: dsh-lighthouse
+#         name: dsh-lighthouse
+#         config:
+#           redactSecrets: true
+#           maxFindings: 40
+- insert:
+    - id: dsh-lighthouse
+      name: dsh-lighthouse

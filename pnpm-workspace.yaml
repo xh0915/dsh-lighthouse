@@ -1,0 +1,16 @@
+# No sub-packages: this is one plugin. Settings live here because pnpm 10 no
+# longer reads the `pnpm` field of package.json.
+packages: []
+
+onlyBuiltDependencies:
+  - esbuild
+
+# The installed harness (D:\nvm\node_global\...\@deepseek-ai\dsh) ships exactly one
+# copy of each runtime package. Some rc.8-era transitive deps otherwise pull a
+# second `dsh-typert-protocol`, and TypeScript then sees two `TypertRegistryContract`
+# identities — `ctx.typert.register` stops resolving. Match the harness instead.
+overrides:
+  "@deepseek-ai/cordis": 4.0.1
+  "@deepseek-ai/schemastery": 3.18.1
+  "@deepseek-ai/dsh-typert-protocol": 0.1.0-rc.6
+  "@deepseek-ai/dsh-typert-registry": 0.1.0-rc.6
