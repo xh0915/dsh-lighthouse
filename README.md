@@ -16,7 +16,7 @@
 
 ## 长这样
 
-![灯塔标签页里的一份扫描报告](design/lighthouse-light.png)
+![灯塔标签页里的一份扫描报告](https://testingcf.jsdelivr.net/gh/xh0915/dsh-lighthouse@0c06cae/design/lighthouse-light.png)
 
 > 图里是一份示例会话（演示数据里的七条风险各展示一次），不是真实运行记录。
 

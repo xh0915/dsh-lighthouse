@@ -8,7 +8,7 @@ An agent can do a lot before you look up: delete a folder, force-push a branch, 
 
 It is read-only. It does not block tools, change a command, or run anything again.
 
-![Lighthouse tab showing a sample session report](design/lighthouse-en.png)
+![Lighthouse tab showing a sample session report](https://testingcf.jsdelivr.net/gh/xh0915/dsh-lighthouse@0c06cae/design/lighthouse-en.png)
 
 *Sample session, not a live run: the seven demo findings, one per risk rule.*
 
